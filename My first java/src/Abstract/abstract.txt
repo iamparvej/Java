@@ -1,0 +1,8 @@
+Abstract Method in Java:
+->The abstract method  is used for creating blueprints for classes or interfaces.
+->methods are defined but these methods don't provide the implementation.
+->Abstract Methods can only be implemented using subclasses or classes that implement the interfaces.
+
+# Important Points for Abstract Method
+->Any class that contains one or more abstract methods must also be declared abstract.
+->If a class contains an abstract method it needs to be abstract and vice versa is not true.
