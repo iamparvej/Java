@@ -1,0 +1,44 @@
+Polymorphism;-
+Polymorphism comes from Greek:
+
+“poly” = many, “morph” = forms → "Many Forms"
+polymorphism means an object can take on many forms. The most common use is when a parent class reference is used to refer to a child class object.
+
+
+
+🧠 Why Use Polymorphism?
+Polymorphism helps in:
+
+Writing generic code.
+Achieving runtime flexibility.
+Supporting method overriding, which is essential for dynamic behavior.
+
+✅ Types of Polymorphism in Java
+1. Compile-Time Polymorphism (Static Binding / Method Overloading)
+Definition:
+->When method call is resolved at compile time it's called compile- time polymorphism
+
+➕ Method Overloading:
+# Same method name with different :
+Number of parameters
+Types of parameters
+order of parameters
+
+2. Runtime Polymorphism (Dynamic Binding / Method Overriding)
+Definition:
+-> When method call is resolved at runtime it's called runtime polymorphism
+
+
+🔁 Method Overriding:
+Method in subclass has same signature as in superclass.
+The object type (not the reference type) determines which method is executed
+
+
+
+
+
+
+
+
+
+
