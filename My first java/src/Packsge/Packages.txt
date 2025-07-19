@@ -1,0 +1,59 @@
+📦 What is a Package in Java?
+->A package is a group of related classes, interfaces, and sub-packages.
+->Think of it as a folder in your computer where similar types of files are stored together.
+
+🔶 Why Use Packages?
+✅ Avoid name conflicts (e.g., two classes with the same name).
+
+✅ Improve modularity of the application.
+
+✅ Easier to manage large codebases.
+
+✅ Access control with public, private, protected, and default access.
+
+✅ Reusability of code.
+
+📂 Types of Packages in Java.
+1. 🔸 Built-in Packages (Standard Library)
+Provided by Java, used directly with import.
+
+Examples:
+
+java.util.* → collections, Scanner, Date, etc.
+
+java.io.* → Input/output classes
+
+java.net.* → Networking
+
+java.sql.* → Database access
+
+2. 🔸 User-defined Packages
+->Created  by the programmer 
+✅ Steps:
+Create a class with a package statement.
+
+Save it in a folder with the same name as the package.
+
+Compile using javac -d . FileName.java
+
+Use import to access it.
+
+
+🔐 Access Modifiers and Packages
+Modifier	Same Class	Same Package	Subclass   (other package)
+
+public		✅	✅	 ✅               ✅		✅
+protected	✅	✅	 ✅	           ✅		❌
+no modifier	✅	✅	 ❌	           ❌		❌
+private		❌	❌	 ❌                ❌		❌
+
+
+
+
+
+
+
+
+
+
+
